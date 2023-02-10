@@ -1,0 +1,116 @@
+.cart-items{
+    margin: 30px auto;
+    width: 50%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+.cart-items-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-bottom: 2px solid black;
+    
+}
+.cart-items-empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cart-items-image{
+    height: 220px;
+    width: 200px;
+    margin-right: 10px;
+    
+}
+.image-border{
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gray;
+}
+.cart-items-list{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5%;
+
+}
+.cart-items-name,
+.cart-item-function{
+    width: 25% ;
+
+}
+.cart-items-price{
+    width: 25%;
+}
+.cart-item-add,
+.cart-item-remove{
+    width: 30px;
+    margin-right: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.cart-item-add{
+    background-color: green;
+}
+.cart-item-remove{
+    background-color: red;
+}
+.cart-item-clear{
+    background-color: black ;
+    padding: 10px;
+    padding-right: 80px;
+    width: 30px;
+    margin-right: 150px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    
+}
+.cart-item-add:active{
+    transform: translateY(1.2px);
+    
+}
+.cart-item-remove:active{
+    transform: translateY(1.2px);
+    
+}
+
+.cart-item-clear:active{
+    transform: translateY(1.2px);
+    
+}
+.cart-items-total-price-name{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 22%;
+    font-size: 20px;
+    font-weight: 700;
+    border-top: 2px solid black;
+}
+.cart-items-total-price{
+    display: flex;
+    padding-left: 55%;
+
+}
+
